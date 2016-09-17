@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+input{
+  color: gray;
+  font-size: 16px;
+  border-radius: 10px;
+  height: 20px;
+  width: 200px;
+  border-color: lightblue;
+}
+
+blockquote{
+  margin: 0 0 20px 0;
+  border-left: 30px solid rgba(0,0,0,0.15);
+  padding-left: 10px;
+  display: block;
+}
+
+
+
+/* --- Clearfix --- */
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/*-------   header menu--------------*/
+
+/* --- Header (in general) --- */
+.header{
+  background-color: #272727;
+  color: white;
+}
+
+/* --- Logo --- */
+
+.logo {
+  float: left;
+}
+
+
+/* --- Menu list --- */
+
+.menu-list{
+  float: left;
+
+}
+
+.header ul{
+  list-style: none;
+}
+
+.header ul li{
+  float: left;
+}
+
+.header ul li a {
+  padding: 25px;
+  display: block;
+}
+
+.kensaku{
+  float: left;
+  padding: 20px 0 0 20px;
+
+}
+
+.proph{
+  float: right;
+  height: auto;
+  width: auto;
+  padding-top: 10px;
+  padding-right:10px;
+}
+
+/*------Spicific button modify---------*/
+.blog a:hover{
+  background: hotpink;
+}
+.videos a:hover{
+  background: #8EA2AC;
+}
+.almanac a:hover{
+  background: yellow;
+  color: black;
+}
+.snippets a:hover{
+  background: green;
+}
+.fourums a:hover{
+  background: blue;
+}
+.shop a:hover{
+  background: red;
+}
+.lodge a:hover{
+  background: lightblue;
+}
+.jobs a:hover{
+  background: lightgreen;
+}
+
+/*----  first box--------*/
+.first-box{
+  margin: 60px;
+  border: 2px solid lightblue;
+  padding: 30px;
+  font-size: 20px;
+  width: 550px;
+  border-radius: 10px;
+}
+
+.second-box{
+  margin: 60px;
+  border: 2px solid lightblue;
+  padding: 30px;
+  font-size: 20px;
+  width: 550px;
+  border-radius: 10px;
+}
