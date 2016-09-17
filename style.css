@@ -1,0 +1,20 @@
+#profile{
+width: 600px;
+margin: auto;
+}
+#profile-image{
+  border-radius: 100px;
+  height: 52px;
+}
+#profile-text{
+display: inline-block;
+vertical-align: top;
+
+}
+#content{
+width: 600px;
+height: auto;
+display: block;
+left: 600px;
+margin:auto;
+}

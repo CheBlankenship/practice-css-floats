@@ -1,0 +1,21 @@
+body{
+  text-align: center;
+}
+input{
+width: 400px;
+font-size: 150px;
+background:url("GoogleMic.png") no-repeat right;
+border: 1px solid #cecece;
+}
+img{
+  margin: -16px;
+}
+button{
+  background-color: #f5f5f5;
+  border: 1px solid #dfdfdf;
+  padding: 1em;
+  font-size: 90%;
+  font-family: Arial, sans-serif;
+  margin-top: 2em;
+  font-weight:bold;
+}
